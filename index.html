@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a> Home</li>
+            <li><a href="#"></a> Tours</li>
+            <li><a href="#"></a> Explore</li>
+            <li><a href="#"></a> About</li>
+            <li class="ctn" ><a  href="#"> Contact</a></li>
+        </ul>
+
+        <img src="img/menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Explore the colorful World</h2>
+            <div class="line"> </div>
+            <h1> A Wonderful Gift</h1>
+            <a href="#" class="ctn"> Learn More</a>
+
+        </div>
+    </header>
+
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1> Upcomming Events</h1>
+            <div class="line"> </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="img/foto.jpg" alt="" width="50%" height="50%">
+                <h4> Everest Camp Trek</h4>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque, provident rem, atque nemo ea sequi debitis fugit qui perferendis at, asperiores placeat aut saepe ab eius eum sit consequatur!</p>
+
+                <a href="#" class="ctn">Learn More</a> 
+
+            </div>
+
+            <div class="col">
+                <img src="img/photo.jpg" alt="">
+                <h4> Walking Holiday</h4>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque, provident rem, atque nemo ea sequi debitis fugit qui perferendis at, asperiores placeat aut saepe ab eius eum sit consequatur!</p>
+
+                <a href="#" class="ctn">Learn More</a> 
+
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1> EXPLORE THE WORLD</h1>
+            <div class="line"> </div>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cupiditate, culpa dolor qui sit illo modi sequi magnam! Perspiciatis, libero. Amet maxime necessitatibus nesciunt at ex iure id animi consequuntur?</p>
+
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row ">
+            <div class="col content-col">
+                <h1> UPCOMMING TOURS & DESTINATION </h1>
+                <div class="line"> </div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem itaque dolor quaerat nesciunt porro sit, nostrum ab minus fugiat eos modi ut dolorum et. Aliquid error officia quia ab? </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col ">
+                <div class="image-gallery ">
+                    <div class="row-img">
+                        <div class="col-img" >
+                            <img src="img/Photo1.jpg" alt="">
+                        </div>
+                        <div class="col-img" >
+                            <img src="img/foto.jpg" alt="">
+                        </div>
+                        
+                      </div>
+                      <div class="row-img">
+                        <div class="col-img" >
+                            <img src="img/foto.jpg" alt="">
+                        </div>
+                        <div class="col-img" >
+                            <img src="img/foto.jpg" alt="">
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+
+    })
+</script>
+    
+</body>
+</html>
